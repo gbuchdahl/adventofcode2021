@@ -3,7 +3,7 @@ use std::io::{BufRead, BufReader};
 
 pub fn solve() {
     // --snip--
-    let filename = "input.txt";
+    let filename = "inputs/p2.txt";
 
     let mut depth = 0;
     let mut pos = 0;

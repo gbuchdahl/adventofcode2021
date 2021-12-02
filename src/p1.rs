@@ -3,7 +3,7 @@ use std::io::{BufRead, BufReader};
 
 pub fn solve() {
     // --snip--
-    let filename = "input.txt";
+    let filename = "inputs/p1.txt";
 
     let mut increases = 0;
     let mut a;
@@ -35,6 +35,4 @@ pub fn solve() {
 
     println!("{} Increases", increases);
 }
-
-pub mod p1;
 
